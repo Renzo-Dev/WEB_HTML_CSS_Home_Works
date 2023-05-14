@@ -1,0 +1,61 @@
+.line{
+    color: white;
+}
+.border{
+    border: 2px solid;
+    background-color: #ed9dae;
+    padding: 15px;
+}
+.element
+{
+    font-family: "Segoe UI", serif;
+    background-color:#c56376;
+    padding: 5px 0 5px 8px;
+    display: block;
+    margin-bottom: 15px;
+}
+.text
+{
+    border: 0 solid;
+    background-color: #9f354b;
+    padding: 5px;
+}
+h1{
+    margin-left: 15px;
+    font-family: "Segoe UI", serif;
+}
+
+/*Парные*/
+.Par
+{
+    border: 0 solid;
+    background-color: rgba(165,204,219,0.66) ;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 900px;
+}
+
+/*Не парные*/
+.noPar
+{
+    border: 0 solid;
+    background-color:#b0d6e4;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 900px;
+}
+
+/*Указанные элементы ( check = true )*/
+.select-elem-line
+{
+    border: 0 solid;
+    background-color: #e4e4e4;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 900px;
+}
+.select-elem-text{
+    text-decoration: line-through;
+    margin-left: 15px;
+    margin-right: 10px;
+}

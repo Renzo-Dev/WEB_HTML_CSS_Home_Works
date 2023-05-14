@@ -1,0 +1,18 @@
+*{
+    background-color: #f3f3f3;
+    font-family: Arial, serif;
+    font-size: 18px;
+}
+
+
+.tag{
+    font-style: italic;font-family: Arial,serif
+}
+
+.gray-text{
+    color: gray;
+}
+
+.synonyms-text {
+    color: #2942ba;
+}
