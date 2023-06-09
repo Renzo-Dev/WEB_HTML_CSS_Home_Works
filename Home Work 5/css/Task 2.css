@@ -2,17 +2,19 @@
     --menu-bg: gray;
     --menu-clr: white;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     background-color: #e1e1e1;
 }
 
-.menu{
+.menu {
     background-color: var(--menu-bg);
     will-change: width;
     display: flex;
@@ -31,7 +33,7 @@ body {
     width: 200px;
 }
 
-.menu:hover .link_text{
+.menu:hover .link_text {
     display: inline-block;
     animation-timing-function: ease;
     animation-duration: 1s;
@@ -70,7 +72,7 @@ body {
     padding-right: 2rem;
 }
 
-.menu_link:hover{
+.menu_link:hover {
     background-color: dimgray;
 }
 
@@ -85,10 +87,12 @@ body {
     font-family: "Segoe UI", serif;
     text-transform: uppercase;
 }
+
 h3 {
     font-size: 23px;
     margin: 1.3rem 130px;
 }
+
 .content_text {
     margin-left: 130px;
     margin-right: 70px;

@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ table {
     max-width: 800px;
 }
 
-th{
+th {
 
     font-weight: bold;
     font-family: "Segoe UI", serif;
@@ -22,16 +22,16 @@ tbody:first-child th:first-child {
 }
 
 
-th ,tr {
+th, tr {
     text-align: center;
     height: 30px;
 }
 
-tr:nth-child(2n+1){
+tr:nth-child(2n+1) {
     background-color: #e7e7e7;
 }
 
- tr th {
+tr th {
     background-color: #acd8e5;
     position: sticky;
     top: 0;
