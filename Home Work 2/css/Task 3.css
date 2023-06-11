@@ -1,15 +1,16 @@
-*{
+* {
     background-color: #f3f3f3;
     font-family: Arial, serif;
     font-size: 18px;
 }
 
 
-.tag{
-    font-style: italic;font-family: Arial,serif
+.tag {
+    font-style: italic;
+    font-family: Arial, serif
 }
 
-.gray-text{
+.gray-text {
     color: gray;
 }
 

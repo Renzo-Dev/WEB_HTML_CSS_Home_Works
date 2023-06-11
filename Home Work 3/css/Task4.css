@@ -1,4 +1,4 @@
-*{
+* {
     background-color: #2b4f6f;
     font-family: "Segoe UI", serif;
     color: white;
@@ -30,7 +30,7 @@ footer ul div a {
     background-image: url("../icons/insta_gray.png");
 }
 
-.social__link--youtube:hover{
+.social__link--youtube:hover {
     background-image: url("../icons/youtube.png");
 }
 
@@ -43,7 +43,7 @@ footer ul div a {
 }
 
 
-#footer{
+#footer {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -51,7 +51,7 @@ footer ul div a {
     height: 200px;
 }
 
-footer ul{
+footer ul {
     align-content: center;
 }
 
@@ -66,11 +66,11 @@ ul {
     list-style: none;
 }
 
-footer hr{
+footer hr {
     margin: 20px 100px;
 }
 
-a{
+a {
     white-space: nowrap;
 }
 
@@ -78,7 +78,7 @@ footer p {
     text-align: center;
 }
 
-a:hover{
+a:hover {
     cursor: pointer;
     text-decoration: underline;
 }

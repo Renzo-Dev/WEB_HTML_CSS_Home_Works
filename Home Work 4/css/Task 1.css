@@ -41,19 +41,19 @@
 }
 
 @keyframes nev {
-    100%{
+    100% {
         transform: rotate(360deg); /* Стрелка делает полный круг */
     }
 }
 
 @keyframes nov {
-    100%{
+    100% {
         transform: rotate(360deg);
     }
 }
 
 @keyframes now {
-    100%{
+    100% {
         transform: rotate(360deg);
     }
 }

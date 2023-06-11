@@ -1,5 +1,5 @@
-*{
-    font-family: "Segoe UI",serif;
+* {
+    font-family: "Segoe UI", serif;
     font-weight: bold;
     color: white;
     margin: 10px;
@@ -17,7 +17,7 @@ menu {
     background-color: #6d1237;
 }
 
-section{
+section {
     font-size: 30px;
     background-color: #da91ae;
     padding: 0 0 100px 100px;
@@ -26,13 +26,13 @@ section{
     margin-bottom: 20px;
 }
 
-main{
+main {
     background-color: #b55c81;
     margin: 20px 180px 20px 310px;
     padding: 50px 0 140px 50px;
 }
 
-footer p{
+footer p {
     padding: 10px 10px 10px 35px;
     margin: 10px auto;
     background-color: #6d1237;
@@ -41,14 +41,16 @@ footer p{
 #aside1 {
     float: left;
 }
-aside div:first-child{
+
+aside div:first-child {
     padding: 40px 150px 40px 40px;
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 20px;
     background-color: #b55c81;
 }
-aside div:last-child{
+
+aside div:last-child {
     padding: 40px 40px 100px;
     margin-left: 0;
     background-color: #b55c81;

@@ -1,18 +1,21 @@
-dl{
+dl {
     display: inline-block;
     box-sizing: content-box;
 }
+
 dl dt {
     padding: 6px;
     background-color: #7f7f7f;
 }
 
-dl dt:hover{
+dl dt:hover {
     background-color: #5e5e5e;
 }
-img{
+
+img {
     vertical-align: -29px;
 }
+
 dl span {
     color: white;
     font-size: 15px;
