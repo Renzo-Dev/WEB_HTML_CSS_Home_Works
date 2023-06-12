@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.list__wrapper {
+    margin-top: 50px;
+    font-family: "Segoe UI", serif;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.block {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 20px 5px rgba(0, 0, 0, 0.50);
+    transition: all 500ms ease;
+}
+
+.list__line {
+    position: relative;
+    width: 100%;
+    filter: brightness(90%);
+    border: none;
+    height: 4px
+}
+
+.block__header {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.per__Time {
+    font-weight: 700;
+    font-size: 25px;
+    color: darkgray;
+    opacity: 60%;
+    margin-bottom: 25px;
+
+}
+
+.price {
+    font-size: 65px;
+    font-width: 700;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 17px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+}
+
+.description span {
+    padding-bottom: 10px;
+}
+
+.button {
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.block:hover {
+    transform: scale(1.2);
+    z-index: 99999999
+}
+
+.color1 {
+    background-color: #c43656;
+}
+
+.color2 {
+    background-color: #d7913c;
+}
+
+.color3 {
+    background-color: #28668a;
+}
+
+.color4 {
+    background-color: #63b935;
+}
