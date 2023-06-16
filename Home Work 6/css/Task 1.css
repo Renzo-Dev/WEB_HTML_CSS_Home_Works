@@ -1,0 +1,65 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+    height: 90vh;
+    overflow: hidden;
+    border-radius: 13px;
+    margin: 15px;
+    background-color: red;
+}
+
+ul{list-style: none}
+
+ul:first-child {
+    flex-basis: 350px;
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    flex-basis: 250px;
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: column;
+}
+
+li:nth-child(2n+1) {
+    background-color: #e7e7e7;
+}
+
+ul:first-child li:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7886a9;
+    height: 200px;
+}
+
+ul:first-child li {
+    height: 60px;
+    font-family: "Segoe UI", serif;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+ul:first-child li span{
+    margin-left: 35px;
+}
+
+
+ul:first-child li:first-child > header {
+    color: white;
+    font-family: "Segoe UI", serif;
+    font-size: 25px;
+    font-weight: 700;
+}
