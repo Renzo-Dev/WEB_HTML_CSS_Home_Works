@@ -5,24 +5,49 @@
     padding: 0;
 }
 
+ul:last-child {
+    flex-basis: 300px;
+}
+
+ul:last-child  li:first-child {
+    background-color: #071538;
+}
+
+ul:nth-child(3) li:first-child{
+    background-color: #2f4172;
+}
+
+ul:nth-child(4) li:first-child {
+    background-color: #162954;
+}
+
+ul:nth-child(2n) {
+    filter: brightness(115%);
+}
+
+ul:nth-child(2n+1) {
+    filter: brightness(106%);
+}
+
 div {
     display: flex;
     flex-direction: row;
-    width: 98vw;
+    width: 91vw;
     height: 90vh;
     overflow: hidden;
     border-radius: 13px;
-    margin: 15px;
-    background-color: red;
+    margin: 15px auto;
 }
 
-ul{list-style: none}
+ul {
+    list-style: none
+}
 
 ul:first-child {
     flex-basis: 350px;
-    background-color: #cacaca;
     display: flex;
     flex-direction: column;
+    opacity: 80%;
 }
 
 ul{
@@ -36,30 +61,80 @@ li:nth-child(2n+1) {
     background-color: #e7e7e7;
 }
 
+ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 64px;
+}
+
+li button {
+    margin-top: 15px;
+    height: 45px;
+    width: 120px;
+    font-size: 15px;
+    background-color: #d2d2d2;
+    border: 1px solid black;
+}
+
+ul li:first-child header {
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+ul li:first-child span {
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+ul li:first-child footer {
+    font-size: 25px;
+    color: white;
+}
+
+ul li:first-child {
+    height: 200px;
+    background-color: #4f628c;
+}
+
+ul li header,span,footer {
+    color: black;
+    font-family: "Segoe UI", serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
 ul:first-child li:first-child {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #7886a9;
     height: 200px;
 }
 
 ul:first-child li {
-    height: 60px;
+    height: 64px;
     font-family: "Segoe UI", serif;
-    text-align: left;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
-ul:first-child li span{
+ul:first-child li span {
     margin-left: 35px;
+    font-family: "Segoe UI", serif;
+    font-size: 20px;
+    font-weight: 500;
 }
 
+ul li span{
+    margin-top: 15px;
 
-ul:first-child li:first-child > header {
-    color: white;
-    font-family: "Segoe UI", serif;
-    font-size: 25px;
-    font-weight: 700;
+}
+
+ul:first-child > li:first-child > header {
+    font-size: 30px;
+    margin-top: 0;
 }
