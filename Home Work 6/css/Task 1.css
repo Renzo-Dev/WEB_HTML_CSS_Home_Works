@@ -9,11 +9,11 @@ ul:last-child {
     flex-basis: 300px;
 }
 
-ul:last-child  li:first-child {
+ul:last-child li:first-child {
     background-color: #071538;
 }
 
-ul:nth-child(3) li:first-child{
+ul:nth-child(3) li:first-child {
     background-color: #2f4172;
 }
 
@@ -50,7 +50,7 @@ ul:first-child {
     opacity: 80%;
 }
 
-ul{
+ul {
     flex-basis: 250px;
     background-color: #cacaca;
     display: flex;
@@ -90,6 +90,7 @@ ul li:first-child span {
     color: white;
     font-weight: 700;
 }
+
 ul li:first-child footer {
     font-size: 25px;
     color: white;
@@ -100,7 +101,7 @@ ul li:first-child {
     background-color: #4f628c;
 }
 
-ul li header,span,footer {
+ul li header, span, footer {
     color: black;
     font-family: "Segoe UI", serif;
     font-weight: 400;
@@ -129,7 +130,7 @@ ul:first-child li span {
     font-weight: 500;
 }
 
-ul li span{
+ul li span {
     margin-top: 15px;
 
 }
