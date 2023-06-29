@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    background-color: #009d9c;
+    height: 100%;
+    width: 100%;
+}
+
+.ToDoListName {
+    font-family: "Segoe UI", serif;
+}
+
+.top_board {
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 60px;
+    background-color: #00898b;
+    height: 30px;
+    font-family: "Segoe UI", serif;
+    color: white;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 7px;
+    margin: 90px 20px 20px;
+    padding: 20px;
+    background-color: #d7d7d7;
+    min-width: 300px;
+    max-width: 400px;
+    height: 82vh;
+}
+
+.Task {
+    background-color: #f3f3f3;
+    border-radius: 7px;
+    width: 89%;
+    min-width: 89%;
+    min-height: 100px;
+    max-height: fit-content;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.task__text {
+    font-size: 20px;
+    font-family: "Segoe UI", serif;
+}
+
+.controls__icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.checkIcon {
+    margin-left: 20px;
+}
+
+.attach__icon {
+    margin-left: 15px;
+}
+
+.comments__icon {
+    margin-left: 20px;
+}
+
+.checkIcon__points, .attach__icon__counts, .comments__icon__count {
+    font-size: 22px;
+    font-family: "Segoe UI", serif;
+    margin-left: 5px;
+}
+
+.toDoListAvatar {
+    margin-left: auto;
+    margin-top: -10px;
+}

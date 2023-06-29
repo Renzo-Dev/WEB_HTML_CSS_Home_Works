@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    background-color: #111039;
+}
+
+.container__messages {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    min-width: 1200px;
+    max-width: 1200px;
+    height: fit-content;
+    margin: 30px auto 0;
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.message__info {
+    max-width: 185px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+}
+
+.message__info > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.received__message {
+    display: flex;
+    flex-direction: row;
+}
+
+.FullName__info {
+    white-space: nowrap;
+    font-size: 25px;
+    color: white;
+    font-family: "Segoe UI", serif;
+}
+
+.send__time {
+    font-family: "Segoe UI", serif;
+    color: #c6c6c6;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.received__message .send__time {
+    text-align: right;
+}
+
+.message__container {
+    width: 670px;
+    min-width: 670px;
+    max-width: 670px;
+    padding: 20px;
+    min-height: 40px;
+    white-space: normal;
+}
+
+.received__message .message__container {
+    background-color: #282626;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+
+.text__message {
+    font-family: "Segoe UI", serif;
+    font-size: 25px;
+    color: white;
+}
+
+.sent__message .send__time {
+    text-align: left;
+}
+
+.sent__message {
+    display: flex;
+    flex-direction: row;
+}
+
+.sent__message {
+    margin-left: auto;
+}
+
+.sent__message .message__container {
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-top-left-radius: 13px;
+    background-color: #566b72;
+}
+
+.message__info img {
+    margin-top: -5px;
+}
