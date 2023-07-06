@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    padding: 15px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: "Segoe UI", serif;
+    font-weight: 700;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+h2:not(:first-child) {
+    margin-top: 30px;
+}
+
+.inputs__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inputs__container input:nth-child(2) {
+    margin-left: 20px;
+}
+
+.default__input__text {
+    color: black;
+    border: 2px solid #d4d3d9;
+}
+
+.default__input__text::placeholder {
+    color: #d4d3d9;
+}
+
+.valid__input__text {
+    color: green;
+    border: 2px solid green;
+}
+
+.invalid__input__text {
+    color: red;
+    border: 2px solid red;
+}
+
+.inputs__container input {
+    border-radius: 4px;
+    padding: 13px 13px 13px 20px;
+    font-size: 20px;
+}
+
+.image__valid {
+    position: relative;
+    right: 30px;
+}
+
+.image__invalid {
+    position: relative;
+    right: 30px;
+}
+
+/*-----------------------------*/
+/*Прячем checkbox по умолчанию*/
+.toggle {
+    display: none;
+}
+/*делаяем отступы от первого toggleBox display flex dir-row*/
+.check__boxes .togglebox:not(:first-child) {
+    margin-left: 15px;
+}
+/*выстраиваем элементы контейнера check_boxes в строку и выравниваем их по вертикальному центру*/
+.check__boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/*настраиваем div в нутри check_boxes*/
+.check__boxes div {
+    margin: 0 10px;
+    font-size: 20px;
+    font-family: "Segoe UI", serif;
+}
+
+/* стиль toggle box */
+.togglebox {
+    position: relative;
+    display: inline-block;
+    width: 65px;
+    height: 33px;
+}
+
+/* Стили для фона togglebox */
+.togglebox .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.check__boxes .green .slider{
+    border: 1px solid green;
+}
+
+.check__boxes .green .slider:before {
+    background-color: green;
+}
+
+.check__boxes .pink .slider{
+    border: 1px solid #e44062;
+}
+
+.check__boxes .pink .slider:before {
+    background-color: #e44062;
+}
+
+/* Стили для ползунка togglebox */
+.togglebox .slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 30px;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+/* Стили для включенного togglebox */
+.togglebox input:checked + .slider {
+    background-color: white;
+}
+
+/* Стили для включенного ползунка togglebox */
+.togglebox input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/*-----------------------------------*/
+
+.radio__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.radio__buttons div {
+    font-size: 20px;
+    font-family: "Segoe UI", serif;
+}
+
+.radio__buttons label{
+    font-family: "Segoe UI", serif;
+    font-size: 20px;
+}
+
+.radio__buttons input[type='radio'] {
+    margin: 0 5px;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+.radio__buttons input[type='radio']::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid green;
+}
+
+.radio__buttons input[type='radio']:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+/*-----------------------------------*/
+
+.buttons__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button {
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    margin-right: 10px;
+    font-family: "Segoe UI", serif;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 7px;
+}
+
+.circle {
+    text-align: left;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    font-weight: 1000;
+}
+
+.button:nth-child(1){
+    background-color: #45ab48;
+}
+.button:nth-child(2){
+    background-color: #28772f;
+}
+.button:nth-child(3){
+    background-color: #e44061;
+}
+.button:nth-child(4){
+    background-color: #9b2648;
+}
+.button:nth-child(5){
+    background-color: #808080;
+}
+.button:nth-child(6){
+    background-color: #3fb043;
+}
+.button:nth-child(7) {
+    background-color: #e54062;
+}
+
+#message {
+    padding: 15px;
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+}

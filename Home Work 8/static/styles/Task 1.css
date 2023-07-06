@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.credit__card {
+    background-color: #9fcdcd;
+    display: flex;
+    flex-direction: column;
+    font-family: "Segoe UI", serif;
+    width: 550px;
+    height: 350px;
+    margin: 50px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.credit__card img{
+    position: relative;
+    left: 305px;
+    bottom: 200px;
+}
+
+.input__container div {
+    margin-top: 5px;
+}
+
+.card__title {
+    font-family: Arial, serif;
+    position: relative;
+    right: 25px;
+    top: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    width: 370px;
+    background-color: #db6324;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+.input__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 300px;
+    margin-left: 20px;
+    height: 200px;
+}
+
+.card__number,.nameOnCard, .card__ident__container,.card__year__container ,.expiry__date__container , .CVV__CVN__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__number,.nameOnCard, .card__ident__container ,.expiry__date__container , .CVV__CVN__container::placeholder{
+    color: #598888;
+    border: none;
+}
+
+.card__number,.nameOnCard, .card__ident__container ,.expiry__date__container , .CVV__CVN__container label {
+    color: #466c6f;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+input {
+    font-size: 17px;
+    background-color: #a9d1d1;
+    border: none;
+    border-bottom: 1px solid #466c6f;
+    padding: 7px 7px 7px 12px;
+}
+
+.card__ident__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+.card__ident__container div:not(:first-child) {
+    margin-left: 20px;
+}
+
+.expiry__date__container{
+    width: 100px;
+}
+
+.card__year__container {
+    width: 80px;
+    position: relative;
+    top: 9px;
+}
+
+.CVV__CVN__container {
+    width: 80px;
+}
