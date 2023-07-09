@@ -69,16 +69,19 @@ h2:not(:first-child) {
 .toggle {
     display: none;
 }
+
 /*делаяем отступы от первого toggleBox display flex dir-row*/
 .check__boxes .togglebox:not(:first-child) {
     margin-left: 15px;
 }
+
 /*выстраиваем элементы контейнера check_boxes в строку и выравниваем их по вертикальному центру*/
 .check__boxes {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 /*настраиваем div в нутри check_boxes*/
 .check__boxes div {
     margin: 0 10px;
@@ -106,7 +109,7 @@ h2:not(:first-child) {
     transition: 0.4s;
 }
 
-.check__boxes .green .slider{
+.check__boxes .green .slider {
     border: 1px solid green;
 }
 
@@ -114,7 +117,7 @@ h2:not(:first-child) {
     background-color: green;
 }
 
-.check__boxes .pink .slider{
+.check__boxes .pink .slider {
     border: 1px solid #e44062;
 }
 
@@ -157,7 +160,7 @@ h2:not(:first-child) {
     font-family: "Segoe UI", serif;
 }
 
-.radio__buttons label{
+.radio__buttons label {
     font-family: "Segoe UI", serif;
     font-size: 20px;
 }
@@ -226,24 +229,30 @@ h2:not(:first-child) {
     font-weight: 1000;
 }
 
-.button:nth-child(1){
+.button:nth-child(1) {
     background-color: #45ab48;
 }
-.button:nth-child(2){
+
+.button:nth-child(2) {
     background-color: #28772f;
 }
-.button:nth-child(3){
+
+.button:nth-child(3) {
     background-color: #e44061;
 }
-.button:nth-child(4){
+
+.button:nth-child(4) {
     background-color: #9b2648;
 }
-.button:nth-child(5){
+
+.button:nth-child(5) {
     background-color: #808080;
 }
-.button:nth-child(6){
+
+.button:nth-child(6) {
     background-color: #3fb043;
 }
+
 .button:nth-child(7) {
     background-color: #e54062;
 }

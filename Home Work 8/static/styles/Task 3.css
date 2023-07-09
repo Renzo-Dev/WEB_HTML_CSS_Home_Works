@@ -1,9 +1,318 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body,html {
-    height: 100%;
+body, html {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#submit__button {
+    width: 200px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    background-color: #00898b;
+    color: white;
+    font-family: "Segoe UI", serif;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 10px 10px 26px -7px rgba(0, 0, 0, 0.75);
+    position: relative;
+    float: right;
+    margin-right: 60px;
+}
+
+#submit__button:hover {
+    background-color: #00afb1;
+}
+
+#submit__button:active {
+    background-color: #00afb1;
+}
+
+#content__container input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.title {
+    font-size: 34px;
+    font-family: "Segoe UI", serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+
+.username__container > input {
+    font-family: "Segoe UI", serif;
+    font-size: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.email__container > input {
+    font-family: "Segoe UI", serif;
+    font-size: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.input__password {
+    width: 100%;
+}
+
+.input__FullName {
+    width: 100%;
+}
+
+.input__FullName input:first-child {
+    margin-right: 30px;
+}
+
+.input__FullName > input {
+    height: 48px;
+    font-family: "Segoe UI", serif;
+    font-size: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.personal__info__container {
+    width: 100%;
+}
+
+.myImage {
+    margin-right: 20px;
+}
+
+.acceptance__wrapper input {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 900px) {
+    #content__container {
+        height: fit-content;
+        margin-left: 60px;
+        margin-top: 50px;
+        margin-right: 60px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .input__password input:first-child {
+        margin-right: 30px;
+    }
+
+    .personal__info__container > select {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 50%;
+        margin-right: 40px;
+        height: 48px;
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .personal__info__container > input {
+        width: 50%;
+        height: 48px;
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .acceptance__wrapper {
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        margin-left: 80px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .input__password > input {
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        padding-left: 20px;
+        width: 100%;
+    }
+
+    .personalDetails__wrapper {
+        width: 50%;
+    }
+
+    .registration__wrapper {
+        width: 50%;
+        min-width: 480px;
+        margin-right: 60px;
+    }
+
+    .gap {
+        margin-bottom: 50px;
+    }
+
+    .username__container, .personal__info__container, .input__FullName, .email__container, .password__container, .input__password {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    #content__container {
+        height: fit-content;
+        margin-left: 60px;
+        margin-top: 50px;
+        margin-right: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input__password input:first-child {
+        margin-right: 30px;
+    }
+
+    .input__password > input {
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        padding-left: 20px;
+        width: 100%;
+    }
+
+    .personal__info__container > select {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 50%;
+        margin-right: 40px;
+        height: 48px;
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .personal__info__container > input {
+        width: 50%;
+        height: 48px;
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .acceptance__wrapper {
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        margin-left: 80px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .gap {
+        margin-bottom: 30px;
+    }
+
+    .personalDetails__wrapper {
+        width: 100%;
+    }
+
+    .registration__wrapper {
+        width: 100%;
+        min-width: 480px;
+        margin-right: 60px;
+    }
+
+    .username__container, .personal__info__container, .input__FullName, .email__container, .password__container, .input__password {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #content__container {
+        height: fit-content;
+        margin-left: 40px;
+        margin-top: 50px;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gap {
+        margin-bottom: 30px;
+    }
+
+    .personalDetails__wrapper {
+        width: 100%;
+    }
+
+    .acceptance__wrapper {
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .registration__wrapper {
+        width: 100%;
+        min-width: 380px;
+        margin-right: 60px;
+    }
+
+    .username__container, .email__container, .password__container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .personal__info__container > select {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        margin-right: 40px;
+        height: 48px;
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .personal__info__container > input {
+        width: 100%;
+        height: 48px;
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .input__password, .personal__info__container, .input__FullName {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input__password > input:first-child {
+        margin-bottom: 20px;
+    }
+
+    .input__password > input {
+        font-family: "Segoe UI", serif;
+        font-size: 20px;
+        padding-left: 20px;
+        width: 100%;
+        height: 48px;
+    }
 }

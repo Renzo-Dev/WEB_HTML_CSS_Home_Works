@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -15,7 +15,7 @@
     overflow: hidden;
 }
 
-.credit__card img{
+.credit__card img {
     position: relative;
     left: 305px;
     bottom: 200px;
@@ -49,17 +49,17 @@
     height: 200px;
 }
 
-.card__number,.nameOnCard, .card__ident__container,.card__year__container ,.expiry__date__container , .CVV__CVN__container {
+.card__number, .nameOnCard, .card__ident__container, .card__year__container, .expiry__date__container, .CVV__CVN__container {
     display: flex;
     flex-direction: column;
 }
 
-.card__number,.nameOnCard, .card__ident__container ,.expiry__date__container , .CVV__CVN__container::placeholder{
+.card__number, .nameOnCard, .card__ident__container, .expiry__date__container, .CVV__CVN__container::placeholder {
     color: #598888;
     border: none;
 }
 
-.card__number,.nameOnCard, .card__ident__container ,.expiry__date__container , .CVV__CVN__container label {
+.card__number, .nameOnCard, .card__ident__container, .expiry__date__container, .CVV__CVN__container label {
     color: #466c6f;
     font-size: 15px;
     font-weight: 600;
@@ -88,7 +88,7 @@ input {
     margin-left: 20px;
 }
 
-.expiry__date__container{
+.expiry__date__container {
     width: 100px;
 }
 
